@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1bd6aee0-237a-4b4b-9007-47ff2cc2aa55" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fpoly/config/JPAConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fpoly/config/JPAConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fpoly/controller/admin/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fpoly/controller/admin/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fpoly/controller/web/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fpoly/controller/web/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fpoly/entity/RoleEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fpoly/entity/RoleEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fpoly/entity/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fpoly/entity/UserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/decorators.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/decorators.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1b9qXh2JcqVPIUVJ43sKTOrf9VH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1bd6aee0-237a-4b4b-9007-47ff2cc2aa55" name="Default Changelist" comment="" />
+      <created>1588054697058</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588054697058</updated>
+      <workItem from="1588054703354" duration="187000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="209" y="0" key="new project wizard" timestamp="1588054874906">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="209" y="0" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1588054874906" />
+  </component>
+</project>

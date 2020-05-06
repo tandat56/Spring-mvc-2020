@@ -6,9 +6,6 @@ import java.util.List;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
@@ -16,11 +13,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "user")
-public class UserEntity  {
- 
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Long id;
+public class UserEntity extends BaseEntity  {
 	
 	@Column(name = "username")
 	private String userName;
@@ -78,9 +71,4 @@ public class UserEntity  {
 	public void setRole(List<RoleEntity> role) {
 		this.role = role;
 	}
-
-	public void setId(Long id) {
-		this.id = id;
-	}
-
 }

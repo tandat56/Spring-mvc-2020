@@ -5,20 +5,12 @@ import java.util.List;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
 import javax.persistence.ManyToMany;
 import javax.persistence.Table;
 
 @Entity
 @Table(name = "role")
-public class RoleEntity {
-	
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Long id;	
-	
+public class RoleEntity extends BaseEntity {
 
 	@Column(name = "name")
 	private String name;
@@ -51,8 +43,5 @@ public class RoleEntity {
 
 	public void setUsers(List<UserEntity> users) {
 		this.users = users;
-	}
-	public void setId(Long id) {
-		this.id = id;
 	}
 }
