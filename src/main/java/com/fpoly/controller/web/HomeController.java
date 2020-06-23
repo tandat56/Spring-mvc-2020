@@ -18,4 +18,9 @@ public class HomeController {
 		ModelAndView mav = new ModelAndView("login");
 		return mav;
 	}
+	@RequestMapping(value = "/dang-ki", method = RequestMethod.GET)
+	public ModelAndView registerPage() {
+		ModelAndView mav = new ModelAndView("register");
+		return mav;
+	}
 }

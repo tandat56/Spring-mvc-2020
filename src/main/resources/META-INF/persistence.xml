@@ -3,6 +3,7 @@
     <persistence-unit name="persistence-data">
         <class>com.fpoly.entity.UserEntity</class>
         <class>com.fpoly.entity.RoleEntity</class>
+        <class>com.fpoly.entity.NewEntity</class>
     </persistence-unit>
 </persistence>
 
