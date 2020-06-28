@@ -1,4 +1,5 @@
-<%@ page pageEncoding="utf-8" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ include file="/common/taglib.jsp" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -31,9 +32,17 @@
                             <a href="<c:url value='/views/register.jsp'/>" class="active">Login</a>
                             <a href="<c:url value='/views/register.jsp'/>">Register</a>
                         </div>
-                        <form>
-                            <input class="form-control" type="text" name="username" placeholder="E-mail Address" required="">
-                            <input class="form-control" type="password" name="password" placeholder="Password" required="">
+                        <c:if test="${param.incorrectAccount != null}">
+                        <div class="alert alert-danger">
+                        	Username or password incorrect
+                        </div>
+                        
+                        </c:if>
+                        
+                        
+                        <form action="j_spring_security_check" id="formLogin" method="post">
+                            <input class="form-control" type="text" name="j_username" placeholder="E-mail Address" required="">
+                            <input class="form-control" type="password" name="j_password" placeholder="Password" required="">
                             <div class="form-button">
                                 <button id="submit" type="submit" class="ibtn">Login</button> <a href="forget1.html">Forget password?</a>
                             </div>
